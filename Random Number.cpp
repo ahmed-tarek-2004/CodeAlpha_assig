@@ -79,16 +79,16 @@ void level(int difficult)
 			if (get > random)
 			{
 				cout << "|\t\t\t\t  -----------------------\t\t\t\t\t\t     |\n";
-				cout << "|\t\t\t\t\  |  Low....Try Again  |\t\t\t\t\t\t     |\n";
-				state = "Low";
+				cout << "|\t\t\t\t\  |  High....Try Again  |\t\t\t\t\t\t     |\n";
+				state = "High";
 				health--;
 				//continue;
 			}
 			else if (get < random)
 			{
 				cout << "|\t\t\t\t  -----------------------\t\t\t\t\t\t     |\n";
-				cout << "|\t\t\t\t  |  High....Try Again   |\t\t\t\t\t\t     |\n";
-				state = "High";
+				cout << "|\t\t\t\t  |  Low....Try Again   |\t\t\t\t\t\t     |\n";
+				state = "Low";
 				health--;
 				//continue;
 			}
